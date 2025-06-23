@@ -40,5 +40,5 @@ jobs:
             </servers>
           </settings>
           EOF
-      - name: Deploy to Nexus
+      - name: Deploy to Nexus!
         run: ./mvnw -B clean deploy
