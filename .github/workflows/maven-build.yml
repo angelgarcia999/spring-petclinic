@@ -29,6 +29,7 @@ jobs:
         run: ./mvnw -B package
       - name: Create Maven Settings
         run: |
+          mkdir -p ~/.m2
           cat > ~/.m2/settings.xml << EOF
           <settings>
             <servers>
