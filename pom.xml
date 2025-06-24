@@ -10,7 +10,7 @@
         <url>http://nexus:8081/repository/maven-releases/</url>
       </repository>
       <snapshotRepository>
-        <id>nexus</id>
+        <id>nexus-snapshots</id>
         <url>http://nexus:8081/repository/maven-snapshots/</url>
       </snapshotRepository>
     </distributionManagement>
